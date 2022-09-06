@@ -13,7 +13,7 @@ docker-compose up -d --build
 # Check Symfony requirements
 docker-compose exec php symfony check:requirements
 
-# All green? Create sumfony app within folder
+# All green? Create new symfony app within app folder
 docker-compose exec php symfony --no-git new .
 ```
 
